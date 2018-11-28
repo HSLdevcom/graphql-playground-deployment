@@ -8,7 +8,7 @@ set -e
 #DOCKER_USER // dockerhub credentials
 #DOCKER_AUTH
 
-ORG=${ORG:-mjaakko}
+ORG=${ORG:-hsldevcom}
 DOCKER_TAG=${TRAVIS_COMMIT:-latest}
 DOCKER_IMAGE=$ORG/graphql-playground-deployment:${DOCKER_TAG}
 LATEST_IMAGE=$ORG/graphql-playground-deployment:latest
